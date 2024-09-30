@@ -1894,22 +1894,22 @@ class OptionFeaturesPlot(OptionMother):
 #             "Interest rate",
 #             "Dividend",
 #         ]
-p = OptionFeaturesPlot(
-    190,
-    "AAPL",
-    100,
-    "Call",
-    "2024-10-15",
-    0.05,
-    0.005,
-    0.3,
-    0,
-    300,
-    "Strike",
-    0,
-    300,
-    "Stock Price",
-    "black scholes",
-    "3d",
-)
-p.compute_option_contract()
+# p = OptionFeaturesPlot(
+#     190,
+#     "AAPL",
+#     100,
+#     "Call",
+#     "2024-10-15",
+#     0.05,
+#     0.005,
+#     0.3,
+#     0,
+#     300,
+#     "Strike",
+#     0,
+#     300,
+#     "Stock Price",
+#     "black scholes",
+#     "3d",
+# )
+# p.compute_option_contract()
