@@ -525,7 +525,7 @@ class EuropeenOption(OptionMother):
         self.trinom = self.trinomial_model()
         self.black_scholes = self.black_scholes_model()
 
-p = EuropeenOption(65000, "BTC-USD", 100, "Put", "2024-12-27", 0.05, 0, 0.8)
-p.compute_option_contract()
-p.plot_trinomial_tree(None)
-p.plot_binomial_tree(None)
+# p = EuropeenOption(65000, "BTC-USD", 100, "Put", "2024-12-27", 0.05, 0, 0.8)
+# p.compute_option_contract()
+# p.plot_trinomial_tree(None)
+# p.plot_binomial_tree(None)
