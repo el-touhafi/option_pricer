@@ -544,9 +544,9 @@ class AmericanOption(OptionMother):
 
 
 
-p = AmericanOption(180, "GOOG", 5, "Put", "2024-09-14", 0.07, 0, 0.3262, 2)
-p.compute_option_contract()
-print(p.crr)
-print(p.trinom)
-p.plot_trinomial_tree(None)
-p.plot_binomial_tree(None)
+# p = AmericanOption(180, "GOOG", 5, "Put", "2024-09-14", 0.07, 0, 0.3262, 2)
+# p.compute_option_contract()
+# print(p.crr)
+# print(p.trinom)
+# p.plot_trinomial_tree(None)
+# p.plot_binomial_tree(None)
